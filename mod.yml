@@ -129,8 +129,10 @@ assets:
   source:
   - name: 03system.bin
 #Change "World Map" into "Garden" in World Points
-- name: msg/jp/sys.bar
+- name: msg/us/sys.bar
   method: binarc
+  multi:
+  - name: msg/uk/sys.bar
   source:
   - name: sys
     type: list
@@ -139,8 +141,10 @@ assets:
     - name: msg/sys.yml
       language: en
 #Change GoA Door Texts
-- name: msg/jp/hb.bar
+- name: msg/us/hb.bar
   method: binarc
+  multi:
+  - name: msg/uk/hb.bar
   source:
   - name: hb
     type: list
@@ -149,16 +153,9 @@ assets:
     - name: msg/hb.yml
       language: en
 #Fix Synth Icon Glitch
-- name: msg/jp/fontimage.bar
+- name: msg/us/fontimage.bar
   method: copy
+  multi:
+  - name: msg/uk/fontimage.bar
   source:
   - name: msg/fontimage.bar
-#Some Limit Form Fix (I dunno why Xaddgx put these in)
-- name: obj/P_EX100_KH1F.mset
-  method: copy
-  source:
-  - name: obj/P_EX100_KH1F.mset
-- name: obj/W_EX010_KH1F.mset
-  method: copy
-  source:
-  - name: obj/W_EX010_KH1F.mset
