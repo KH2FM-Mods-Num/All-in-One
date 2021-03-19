@@ -1,7 +1,7 @@
-# All-in-One Crazycatz
+# All-in-One English
 
 Changes:
-- Offset and Remembrance & Tranquil synth icons fix
+- Remembrance & Tranquil synth icons fix
 - Model for Detection Saber and Frontier of Ultima
 - New "vanilla" stats as follows:
   - 3,1 Defender for FAKE
@@ -38,7 +38,7 @@ Changes:
 - "Garden" instead of "World Map" prompt on World Points
 
 Credits:
-- Xaddgx for Offset Fix along with Detection Saber and Frontier of Ultima icons
+- Xaddgx for Detection Saber and Frontier of Ultima icons
 - Vlad for Frontier of Ultima model
 - Tomk1004 for Detection Saber model
 - Televo for Abilities, Magic, FAKE, and DUMMY icons
