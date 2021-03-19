@@ -1,0 +1,163 @@
+title: All-in-One Crazycatz
+originalAuthor: Various sources credited in the Readme
+description: A compilation of mod to be used with the Garden of Assemblage mod and Randomizer.
+assets:
+#Detection Saber Model
+- name: obj/W_EX010_Y0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_Y0.a.fm
+- name: obj/W_EX010_Y0.mdlx
+  method: copy
+  source:
+  - name: obj/W_EX010_Y0.mdlx
+#Frontier of Ultima Model
+- name: obj/W_EX010_Z0.a.fm
+  method: copy
+  source:
+  - name: obj/W_EX010_Z0.a.fm
+- name: obj/W_EX010_Z0.mdlx
+  method: copy
+  source:
+  - name: obj/W_EX010_Z0.mdlx
+#Pictures (Abilities)
+- name: itempic/item-000.imd
+  method: imd
+  source:
+  - name: itempic/Unused.png
+- name: itempic/item-012.imd
+  method: imd
+  source:
+  - name: itempic/Action.png
+- name: itempic/item-013.imd
+  method: imd
+  source:
+  - name: itempic/Growth.png
+- name: itempic/item-014.imd
+  method: imd
+  source:
+  - name: itempic/Support.png
+#Pictures (Stat-Increasing DUMMY)
+- name: itempic/item-015.imd
+  method: imd
+  source:
+  - name: itempic/DUMMY 23 HP.png
+- name: itempic/item-016.imd
+  method: imd
+  source:
+  - name: itempic/DUMMY 24 MP.png
+- name: itempic/item-017.imd
+  method: imd
+  source:
+  - name: itempic/DUMMY 25 Drive.png
+- name: itempic/item-018.imd
+  method: imd
+  source:
+  - name: itempic/DUMMY 26 Armor.png
+- name: itempic/item-019.imd
+  method: imd
+  source:
+  - name: itempic/DUMMY 27 Accessory.png
+- name: itempic/item-020.imd
+  method: imd
+  source:
+  - name: itempic/DUMMY 16 Item.png
+#Pictures (Forms)
+- name: itempic/item-269.imd
+  method: imd
+  source:
+  - name: itempic/Final Form.png
+- name: itempic/item-271.imd
+  method: imd
+  source:
+  - name: itempic/Anti Form.png
+#Pictures (Keyblades)
+- name: itempic/item-297.imd
+  method: imd
+  source:
+  - name: itempic/Detection Saber.png
+- name: itempic/item-298.imd
+  method: imd
+  source:
+  - name: itempic/Frontier of Ultima.png
+- name: itempic/item-299.imd
+  method: imd
+  source:
+  - name: itempic/FAKE.png
+#Pictures (Magic)
+- name: itempic/item-324.imd
+  method: imd
+  source:
+  - name: itempic/Fire.png
+- name: itempic/item-325.imd
+  method: imd
+  source:
+  - name: itempic/Blizzard.png
+- name: itempic/item-326.imd
+  method: imd
+  source:
+  - name: itempic/Thunder.png
+- name: itempic/item-327.imd
+  method: imd
+  source:
+  - name: itempic/Cure.png
+- name: itempic/item-328.imd
+  method: imd
+  source:
+  - name: itempic/Magnet.png
+- name: itempic/item-329.imd
+  method: imd
+  source:
+  - name: itempic/Reflect.png
+#GoA World Icons
+- name: map/jp/hb26.map
+  multi:
+  - name: map/us/hb26.map
+  - name: map/uk/hb26.map
+  - name: map/it/hb26.map
+  - name: map/sp/hb26.map
+  - name: map/gr/hb26.map
+  - name: map/fr/hb26.map
+  - name: map/fm/hb26.map
+  method: copy
+  source:
+  - name: GoA World Icons.map
+#Offset Fix & Implement New Icon and Stats
+- name: 03system.bin
+  method: copy
+  source:
+  - name: 03system.bin
+#Change "World Map" into "Garden" in World Points
+- name: msg/jp/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: en
+#Change GoA Door Texts
+- name: msg/jp/hb.bar
+  method: binarc
+  source:
+  - name: hb
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/hb.yml
+      language: en
+#Fix Synth Icon Glitch
+- name: msg/jp/fontimage.bar
+  method: copy
+  source:
+  - name: msg/fontimage.bar
+#Some Limit Form Fix (I dunno why Xaddgx put these in)
+- name: obj/P_EX100_KH1F.mset
+  method: copy
+  source:
+  - name: obj/P_EX100_KH1F.mset
+- name: obj/W_EX010_KH1F.mset
+  method: copy
+  source:
+  - name: obj/W_EX010_KH1F.mset
