@@ -1,4 +1,4 @@
-# All-in-One English
+# All-in-One
 
 Changes:
 - Remembrance & Tranquil synth icons fix
