@@ -1,7 +1,7 @@
-title: All-in-One English
+title: All-in-One
 originalAuthor: Various sources credited in the Readme
 game: kh2
-description: A compilation of mod to be used with the Garden of Assemblage mod and Randomizer either without any translation patches or after OpenKH's languagepack-en.
+description: A compilation of mod to be used with the Garden of Assemblage mod and Randomizer for general purposes.
 assets:
 #Detection Saber Model
 - name: obj/W_EX010_Y0.a.fm
@@ -123,11 +123,15 @@ assets:
   method: copy
   source:
   - name: GoA World Icons.map
-#Offset Fix & Implement New Icon and Stats
+#Implement New Icon and Stats
 - name: 03system.bin
-  method: copy
+  method: binarc
   source:
-  - name: 03system.bin
+  - name: item
+    type: list
+    method: copy
+    source:
+    - name: item.bin
 #Change "World Map" into "Garden" in World Points
 - name: msg/us/sys.bar
   method: binarc
