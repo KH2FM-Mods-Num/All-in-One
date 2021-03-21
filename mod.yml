@@ -1,7 +1,7 @@
 title: All-in-One English
 originalAuthor: Various sources credited in the Readme
 game: kh2
-description: A compilation of mod to be used with the Garden of Assemblage mod and Randomizer after OpenKH's languagepack-en.
+description: A compilation of mod to be used with the Garden of Assemblage mod and Randomizer either without any translation patches or after OpenKH's languagepack-en.
 assets:
 #Detection Saber Model
 - name: obj/W_EX010_Y0.a.fm
