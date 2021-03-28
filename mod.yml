@@ -63,15 +63,65 @@ assets:
   method: imd
   source:
   - name: itempic/DUMMY 16 Item.png
+#Pictures (Summons)
+- name: itempic/item-221.imd
+  method: copy
+  source:
+  - name: itempic/Lamp Charm.imd
+- name: itempic/item-222.imd
+  method: copy
+  source:
+  - name: itempic/Ukulele Charm.imd
+- name: itempic/item-223.imd
+  method: copy
+  source:
+  - name: itempic/Feather Charm.imd
+- name: itempic/item-224.imd
+  method: copy
+  source:
+  - name: itempic/Baseball Charm.imd
 #Pictures (Forms)
+- name: itempic/item-266.imd
+  method: copy
+  source:
+  - name: itempic/Valor Form.imd
+- name: itempic/item-267.imd
+  method: copy
+  source:
+  - name: itempic/Wisdom Form.imd
+- name: itempic/item-268.imd
+  method: copy
+  source:
+  - name: itempic/Master Form.imd
 - name: itempic/item-269.imd
-  method: imd
+  method: copy
   source:
-  - name: itempic/Final Form.png
+  - name: itempic/Final Form.imd
 - name: itempic/item-271.imd
-  method: imd
+  method: copy
   source:
-  - name: itempic/Anti Form.png
+  - name: itempic/Anti Form.imd
+- name: itempic/item-320.imd
+  method: copy
+  source:
+  - name: itempic/Limit Form.imd
+#Pictures (Proofs)
+- name: itempic/item-242.imd
+  method: copy
+  source:
+  - name: itempic/Promise Charm.imd
+- name: itempic/item-321.imd
+  method: copy
+  source:
+  - name: itempic/Proof of Connection.imd
+- name: itempic/item-322.imd
+  method: copy
+  source:
+  - name: itempic/Proof of Nonexistence.imd
+- name: itempic/item-323.imd
+  method: copy
+  source:
+  - name: itempic/Proof of Peace.imd
 #Pictures (Keyblades)
 - name: itempic/item-297.imd
   method: imd
@@ -122,7 +172,7 @@ assets:
   - name: map/fm/hb26.map
   method: copy
   source:
-  - name: GoA World Icons.map
+  - name: hb26.map
 #Implement New Icon and Stats
 - name: 03system.bin
   method: binarc
