@@ -183,6 +183,13 @@ assets:
     source:
       - name: ItemList.yml
         type: item
+#Big Chest -> Small Chest
+- name: 00objentry.bin
+  method: listpatch
+  type: List
+  source:
+  - name: ObjList.yml
+    type: objentry
 #Change "World Map" into "Garden" in World Points
 - name: msg/us/sys.bar
   method: binarc
