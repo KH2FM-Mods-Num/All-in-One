@@ -21,142 +21,136 @@ assets:
   method: copy
   source:
   - name: obj/W_EX010_Z0.mdlx
-#Pictures (Abilities)
-- name: itempic/item-000.imd
+#Pictures
+- name: itempic/item-000.imd #Unused Items
   method: imd
   source:
   - name: itempic/Unused.png
-- name: itempic/item-012.imd
+- name: itempic/item-012.imd #Action Ability
   method: imd
   source:
   - name: itempic/Action.png
-- name: itempic/item-013.imd
+- name: itempic/item-013.imd #Growth Ability
   method: imd
   source:
   - name: itempic/Growth.png
-- name: itempic/item-014.imd
+- name: itempic/item-014.imd #Support Ability
   method: imd
   source:
   - name: itempic/Support.png
-#Pictures (Stat-Increasing DUMMY)
-- name: itempic/item-015.imd
+- name: itempic/item-015.imd #DUMMY 23 (HP Up)
   method: imd
   source:
   - name: itempic/DUMMY 23 HP.png
-- name: itempic/item-016.imd
+- name: itempic/item-016.imd #DUMMY 24 (MP Up)
   method: imd
   source:
   - name: itempic/DUMMY 24 MP.png
-- name: itempic/item-017.imd
+- name: itempic/item-017.imd #DUMMY 25 (Drive Up)
   method: imd
   source:
   - name: itempic/DUMMY 25 Drive.png
-- name: itempic/item-018.imd
+- name: itempic/item-018.imd #DUMMY 26 (Armor Up)
   method: imd
   source:
   - name: itempic/DUMMY 26 Armor.png
-- name: itempic/item-019.imd
+- name: itempic/item-019.imd #DUMMY 27 (Accessory Up)
   method: imd
   source:
   - name: itempic/DUMMY 27 Accessory.png
-- name: itempic/item-020.imd
+- name: itempic/item-020.imd #DUMMY 16 (Item Up)
   method: imd
   source:
   - name: itempic/DUMMY 16 Item.png
-#Pictures (Summons)
-- name: itempic/item-221.imd
+- name: itempic/item-221.imd #Lamp Charm
   method: copy
   source:
   - name: itempic/Lamp Charm.imd
-- name: itempic/item-222.imd
+- name: itempic/item-222.imd #Ukulele Charm
   method: copy
   source:
   - name: itempic/Ukulele Charm.imd
-- name: itempic/item-223.imd
+- name: itempic/item-223.imd #Feather Charm
   method: copy
   source:
   - name: itempic/Feather Charm.imd
-- name: itempic/item-224.imd
+- name: itempic/item-224.imd #Baseball Charm
   method: copy
   source:
   - name: itempic/Baseball Charm.imd
-#Pictures (Forms)
-- name: itempic/item-266.imd
+- name: itempic/item-266.imd #Valor Form
   method: copy
   source:
   - name: itempic/Valor Form.imd
-- name: itempic/item-267.imd
+- name: itempic/item-267.imd #Wisdom Form
   method: copy
   source:
   - name: itempic/Wisdom Form.imd
-- name: itempic/item-268.imd
+- name: itempic/item-268.imd #Master Form
   method: copy
   source:
   - name: itempic/Master Form.imd
-- name: itempic/item-269.imd
-  method: copy
+- name: itempic/item-269.imd #Final Form
+  method: imd
   source:
-  - name: itempic/Final Form.imd
-- name: itempic/item-271.imd
-  method: copy
+  - name: itempic/Final Form.png
+- name: itempic/item-271.imd #Anti Form
+  method: imd
   source:
-  - name: itempic/Anti Form.imd
-- name: itempic/item-320.imd
+  - name: itempic/Anti Form.png
+- name: itempic/item-320.imd #Limit Form
   method: copy
   source:
   - name: itempic/Limit Form.imd
-#Pictures (Proofs)
-- name: itempic/item-242.imd
-  method: copy
-  source:
-  - name: itempic/Promise Charm.imd
-- name: itempic/item-321.imd
-  method: copy
-  source:
-  - name: itempic/Proof of Connection.imd
-- name: itempic/item-322.imd
-  method: copy
-  source:
-  - name: itempic/Proof of Nonexistence.imd
-- name: itempic/item-323.imd
-  method: copy
-  source:
-  - name: itempic/Proof of Peace.imd
-#Pictures (Keyblades)
-- name: itempic/item-297.imd
+- name: itempic/item-297.imd #Detection Saber
   method: imd
   source:
   - name: itempic/Detection Saber.png
-- name: itempic/item-298.imd
+- name: itempic/item-298.imd #Frontier of Ultima
   method: imd
   source:
   - name: itempic/Frontier of Ultima.png
-- name: itempic/item-299.imd
+- name: itempic/item-299.imd #FAKE
   method: imd
   source:
   - name: itempic/FAKE.png
-#Pictures (Magic)
-- name: itempic/item-324.imd
+- name: itempic/item-242.imd #Promise Charm
+  method: copy
+  source:
+  - name: itempic/Promise Charm.imd
+- name: itempic/item-321.imd #Proof of Connection
+  method: copy
+  source:
+  - name: itempic/Proof of Connection.imd
+- name: itempic/item-322.imd #Proof of Nonexistence
+  method: copy
+  source:
+  - name: itempic/Proof of Nonexistence.imd
+- name: itempic/item-323.imd #Proof of Peace
+  method: copy
+  source:
+  - name: itempic/Proof of Peace.imd
+- name: itempic/item-324.imd #Fire
   method: imd
   source:
   - name: itempic/Fire.png
-- name: itempic/item-325.imd
+- name: itempic/item-325.imd #Blizzard
   method: imd
   source:
   - name: itempic/Blizzard.png
-- name: itempic/item-326.imd
+- name: itempic/item-326.imd #Thunder
   method: imd
   source:
   - name: itempic/Thunder.png
-- name: itempic/item-327.imd
+- name: itempic/item-327.imd #Cure
   method: imd
   source:
   - name: itempic/Cure.png
-- name: itempic/item-328.imd
+- name: itempic/item-328.imd #Magnet
   method: imd
   source:
   - name: itempic/Magnet.png
-- name: itempic/item-329.imd
+- name: itempic/item-329.imd #Reflect
   method: imd
   source:
   - name: itempic/Reflect.png
@@ -183,6 +177,22 @@ assets:
     source:
       - name: ItemList.yml
         type: item
+#Relocate Twilight Thorn HP Bonus & Unequip Auto Limit
+- name: 00battle.bin
+  method: binarc
+  source:
+  - name: bons
+    type: list
+    method: listpatch
+    source:
+      - name: BonsList.yml
+        type: bons
+  - name: plrp
+    type: list
+    method: listpatch
+    source:
+      - name: PlrpList.yml
+        type: plrp
 #Big Chest -> Small Chest
 - name: 00objentry.bin
   method: listpatch
@@ -190,7 +200,7 @@ assets:
   source:
   - name: ObjList.yml
     type: objentry
-#Change "World Map" into "Garden" in World Points
+#Texts & Libretto
 - name: msg/us/sys.bar
   method: binarc
   multi:
@@ -202,7 +212,6 @@ assets:
     source:
     - name: msg/sys.yml
       language: en
-#Change GoA Door Texts
 - name: msg/us/hb.bar
   method: binarc
   multi:
@@ -213,6 +222,17 @@ assets:
     method: kh2msg
     source:
     - name: msg/hb.yml
+      language: en
+- name: msg/us/tr.bar
+  method: binarc
+  multi:
+  - name: msg/uk/tr.bar
+  source:
+  - name: tr
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/tr.yml
       language: en
 #Fix Synth Icon Glitch
 - name: msg/us/fontimage.bar
