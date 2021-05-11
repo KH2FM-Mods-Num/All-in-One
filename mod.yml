@@ -91,13 +91,13 @@ assets:
   source:
   - name: itempic/Master Form.imd
 - name: itempic/item-269.imd #Final Form
-  method: imd
+  method: copy
   source:
-  - name: itempic/Final Form.png
+  - name: itempic/Final Form.imd
 - name: itempic/item-271.imd #Anti Form
-  method: imd
+  method: copy
   source:
-  - name: itempic/Anti Form.png
+  - name: itempic/Anti Form.imd
 - name: itempic/item-320.imd #Limit Form
   method: copy
   source:
