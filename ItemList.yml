@@ -12,7 +12,7 @@ Items:
   ShopSell: 0
   Command: 0
   Slot: 73
-  Picture: 299
+  Picture: 0x12B
   Icon1: 0
   Icon2: 4
 - Id: 44 #Detection Saber
@@ -84,8 +84,8 @@ Items:
   Flag1: 0
   Rank: C
   StatEntry: 0
-  Name: 35554
-  Description: 35554
+  Name: 0x8AE2
+  Description: 0x8AE2
   ShopBuy: 0
   ShopSell: 0
   Command: 0
@@ -99,8 +99,8 @@ Items:
   Flag1: 0
   Rank: C
   StatEntry: 0
-  Name: 35555
-  Description: 35555
+  Name: 0x8AE3
+  Description: 0x8AE3
   ShopBuy: 0
   ShopSell: 0
   Command: 0
@@ -114,8 +114,8 @@ Items:
   Flag1: 0
   Rank: C
   StatEntry: 0
-  Name: 35556
-  Description: 35556
+  Name: 0x8AE4
+  Description: 0x8AE4
   ShopBuy: 0
   ShopSell: 0
   Command: 0
@@ -129,8 +129,8 @@ Items:
   Flag1: 0
   Rank: C
   StatEntry: 0
-  Name: 35559
-  Description: 35559
+  Name: 0x8AE7
+  Description: 0x8AE7
   ShopBuy: 0
   ShopSell: 0
   Command: 0
@@ -144,8 +144,8 @@ Items:
   Flag1: 0
   Rank: C
   StatEntry: 0
-  Name: 35558
-  Description: 35558
+  Name: 0x8AE6
+  Description: 0x8AE6
   ShopBuy: 0
   ShopSell: 0
   Command: 0
@@ -159,8 +159,8 @@ Items:
   Flag1: 0
   Rank: C
   StatEntry: 0
-  Name: 35557
-  Description: 35557
+  Name: 0x8AE5
+  Description: 0x8AE5
   ShopBuy: 0
   ShopSell: 0
   Command: 0
@@ -2828,7 +2828,7 @@ Items:
 
 Stats:
 - Id: 116 #FAKE Stats
-  Ability: 414
+  Ability: 0x19E
   Attack: 3
   Magic: 1
   Defense: 0
@@ -2842,7 +2842,7 @@ Stats:
   GeneralResistance: 100
   Unknown: 0
 - Id: 83 #Detection Saber Stats
-  Ability: 138
+  Ability: 0x08A
   Attack: 4
   Magic: 2
   Defense: 0
@@ -2856,7 +2856,7 @@ Stats:
   GeneralResistance: 100
   Unknown: 0
 - Id: 84 #Edge of Ultima Stats
-  Ability: 421
+  Ability: 0x1A5
   Attack: 5
   Magic: 4
   Defense: 0
