@@ -217,7 +217,7 @@ assets:
   multi:
   - name: msg/uk/hb.bar
   source:
-  - name: sys
+  - name: hb
     type: list
     method: kh2msg
     source:
@@ -228,7 +228,7 @@ assets:
   multi:
   - name: msg/uk/tr.bar
   source:
-  - name: sys
+  - name: tr
     type: list
     method: kh2msg
     source:
