@@ -182,6 +182,11 @@ assets:
     source:
       - name: ItemList.yml
         type: item
+  - name: went
+    type: list
+    method: copy
+    source:
+      - name: went.bin
 #Relocate Twilight Thorn HP Bonus & Unequip Auto Limit
 - name: 00battle.bin
   method: binarc
