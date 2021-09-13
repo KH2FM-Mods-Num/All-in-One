@@ -4,23 +4,20 @@ game: kh2
 description: A compilation of mod to be used with the Garden of Assemblage mod and Randomizer for general purposes.
 assets:
 #Detection Saber Model
-- name: obj/W_EX010_Y0.a.fm
-  method: copy
-  source:
-  - name: obj/W_EX010_Y0.a.fm
 - name: obj/W_EX010_Y0.mdlx
   method: copy
   source:
   - name: obj/W_EX010_Y0.mdlx
 #Frontier of Ultima Model
-- name: obj/W_EX010_Z0.a.fm
-  method: copy
-  source:
-  - name: obj/W_EX010_Z0.a.fm
 - name: obj/W_EX010_Z0.mdlx
   method: copy
   source:
   - name: obj/W_EX010_Z0.mdlx
+#FAKE (Kingdom Key D)
+- name: obj/W_EX010_WI.mdlx
+  method: copy
+  source:
+  - name: obj/W_EX010_WI.mdlx
 #Pictures
 - name: itempic/item-000.imd #Unused Items
   method: imd
@@ -111,9 +108,9 @@ assets:
   source:
   - name: itempic/Frontier of Ultima.png
 - name: itempic/item-299.imd #FAKE
-  method: imd
+  method: copy
   source:
-  - name: itempic/FAKE.png
+  - name: itempic/FAKE_new.imd
 - name: itempic/item-242.imd #Promise Charm
   method: copy
   source:
@@ -177,6 +174,11 @@ assets:
     source:
       - name: ItemList.yml
         type: item
+  - name: went
+    type: list
+    method: copy
+    source:
+      - name: went.bin
 #Relocate Twilight Thorn HP Bonus & Unequip Auto Limit
 - name: 00battle.bin
   method: binarc
