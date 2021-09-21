@@ -1,7 +1,7 @@
 title: All-in-One
 originalAuthor: Various sources credited in the Readme
 game: kh2
-description: A compilation of mod to be used with the Garden of Assemblage mod and Randomizer for general purposes. It is now compatible for both US and JP regions.
+description: A compilation of mod to be used with the Garden of Assemblage mod and Randomizer for general purposes. It is now compatible with both US and JP regions.
 assets:
 #Detection Saber Model
 - name: obj/W_EX010_Y0.a.fm
