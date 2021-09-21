@@ -214,6 +214,7 @@ assets:
 - name: msg/us/sys.bar
   method: binarc
   multi:
+  - name: msg/jp/sys.bar
   - name: msg/uk/sys.bar
   source:
   - name: sys
@@ -225,6 +226,7 @@ assets:
 - name: msg/us/hb.bar
   method: binarc
   multi:
+  - name: msg/jp/hb.bar
   - name: msg/uk/hb.bar
   source:
   - name: hb
@@ -236,6 +238,7 @@ assets:
 - name: msg/us/tr.bar
   method: binarc
   multi:
+  - name: msg/jp/tr.bar
   - name: msg/uk/tr.bar
   source:
   - name: tr
