@@ -1,7 +1,7 @@
-# All-in-One
+# All-in-One (for both US and JP regions)
 
 Changes:
-- Remembrance & Tranquil synth icons fix
+- Remembrance & Tranquil synth icons fix (only for US region)
 - Model for Detection Saber and Frontier of Ultima
 - New "vanilla" stats as follows:
   - 3,1 Defender for FAKE
