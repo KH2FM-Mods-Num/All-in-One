@@ -2,7 +2,7 @@
 
 Changes:
 - Remembrance & Tranquil synth icons fix (only for US region)
-- Model for Detection Saber and Frontier of Ultima
+- Model for Detection Saber, Frontier of Ultima, and FAKE
 - New "vanilla" stats as follows:
   - 3,1 Defender for FAKE
   - 4,2 Scan for Detection Saber
@@ -36,6 +36,7 @@ Changes:
     - Gained Item Slot!
 - Moved Twilight Thorn's HP Bonus to Prison Keeper
 - Changed Limit Form and Anti Form's Texts
+- Renamed FAKE into Kingdom Key D
 - World icons and texts for GoA doors
 - Appropriate texts and icons for stat-increasing DUMMY
 - "Garden" instead of "World Map" prompt on World Points and SP Terminals
@@ -46,7 +47,8 @@ Credits:
 - Xaddgx for Detection Saber and Frontier of Ultima pictures
 - Vlad for Frontier of Ultima model
 - Tomk1004 for Detection Saber model
-- Televo for Abilities, Magic, FAKE, and DUMMY pictures
+- Televo for Abilities, Magic, and DUMMY pictures
 - Crazycatz for Final and Anti Form pictures
 - Naxshe for GoA add-ons
 - OpenKH and Plando Dev Server for documentations
+- DA for FAKE picture
