@@ -25,6 +25,11 @@ assets:
     source:
     - name: 00battle.bin/PlrpList.yml
       type: plrp
+#Form Starting Weapons
+- name: 00common.bdx
+  method: copy
+  source:
+  - name: 00common.bin
 #Big Chest -> Small Chest & TR Keyblade -> New Keyblade
 - name: 00objentry.bin
   method: listpatch
