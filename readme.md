@@ -1,6 +1,6 @@
 # All-in-One (for both US and JP regions)
 
-Changes:
+Changes (OUTDATED, to be updated later maybe):
 - Remembrance & Tranquil synth icons fix (only for US region)
 - Model for Detection Saber, Frontier of Ultima, and FAKE
 - New "vanilla" stats as follows:
