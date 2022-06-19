@@ -939,7 +939,7 @@
   SubType: 0
   DrawPriority: 0
   WeaponJoint: 2
-  ModelName: P_EX020_CO
+  ModelName: P_EX020_CM
   AnimationName: P_EX020.mset
   Flags: 0
   ObjectTargetType: M
@@ -969,7 +969,7 @@
   SubType: 0
   DrawPriority: 0
   WeaponJoint: 3
-  ModelName: P_EX030_CO
+  ModelName: P_EX030_CM
   AnimationName: P_EX030.mset
   Flags: 0
   ObjectTargetType: M
